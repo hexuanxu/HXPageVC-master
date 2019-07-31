@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AA6EA0BC128562077F4E20B /* libPods-HXPageVC-master.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5974980A427E2F297C44815 /* libPods-HXPageVC-master.a */; };
+		5A495B1439696058D74A0CE2 /* libPods-HXPageVC-masterUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D12C08DA6067BB2243A9975B /* libPods-HXPageVC-masterUITests.a */; };
+		A4FC03ECA0C81B5A41AF087B /* libPods-HXPageVC-masterTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 565B129F836B5397076FCF51 /* libPods-HXPageVC-masterTests.a */; };
+		CB07EFF022F076C90070F05F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB07EFEF22F076C90070F05F /* AppDelegate.m */; };
+		CB07EFF322F076C90070F05F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB07EFF222F076C90070F05F /* ViewController.m */; };
+		CB07EFF622F076C90070F05F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB07EFF422F076C90070F05F /* Main.storyboard */; };
+		CB07EFF822F076CA0070F05F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB07EFF722F076CA0070F05F /* Assets.xcassets */; };
+		CB07EFFB22F076CA0070F05F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB07EFF922F076CA0070F05F /* LaunchScreen.storyboard */; };
+		CB07EFFE22F076CA0070F05F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB07EFFD22F076CA0070F05F /* main.m */; };
+		CB07F00822F076CA0070F05F /* HXPageVC_masterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB07F00722F076CA0070F05F /* HXPageVC_masterTests.m */; };
+		CB07F01322F076CA0070F05F /* HXPageVC_masterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB07F01222F076CA0070F05F /* HXPageVC_masterUITests.m */; };
+		CB07F02322F078780070F05F /* HMHHeaderScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB07F02222F078780070F05F /* HMHHeaderScrollView.m */; };
+		CB07F02722F078CD0070F05F /* HXNormalBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = CB07F02622F078CD0070F05F /* HXNormalBtn.m */; };
+		CB07F02E22F07ABB0070F05F /* UIView+Data.m in Sources */ = {isa = PBXBuildFile; fileRef = CB07F02C22F07ABB0070F05F /* UIView+Data.m */; };
+		CB07F03122F07AF40070F05F /* UIView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = CB07F03022F07AF40070F05F /* UIView+Helper.m */; };
+		CB07F03522F07C610070F05F /* NSArray+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CB07F03322F07C610070F05F /* NSArray+Extension.m */; };
+		CB07F03822F07CFD0070F05F /* NSString+Function.m in Sources */ = {isa = PBXBuildFile; fileRef = CB07F03722F07CFD0070F05F /* NSString+Function.m */; };
+		CB07F03B22F07D560070F05F /* HXNormalBtn+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = CB07F03A22F07D560070F05F /* HXNormalBtn+Create.m */; };
+		CB07F03E22F07DE80070F05F /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = CB07F03C22F07DE80070F05F /* UIImage+Image.m */; };
+		CB07F04222F1CD5C0070F05F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB07F04122F1CD5C0070F05F /* MainViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB07F00422F076CA0070F05F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB07EFE322F076C80070F05F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB07EFEA22F076C90070F05F;
+			remoteInfo = "HXPageVC-master";
+		};
+		CB07F00F22F076CA0070F05F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB07EFE322F076C80070F05F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB07EFEA22F076C90070F05F;
+			remoteInfo = "HXPageVC-master";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00C86D83A7E4F9B68F36C3E5 /* Pods-HXPageVC-masterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXPageVC-masterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HXPageVC-masterTests/Pods-HXPageVC-masterTests.release.xcconfig"; sourceTree = "<group>"; };
+		475F3586AEC86FFC51C37482 /* Pods-HXPageVC-masterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXPageVC-masterUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HXPageVC-masterUITests/Pods-HXPageVC-masterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		478F2D95DF82D39EE0FA4FEA /* Pods-HXPageVC-masterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXPageVC-masterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HXPageVC-masterTests/Pods-HXPageVC-masterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		565B129F836B5397076FCF51 /* libPods-HXPageVC-masterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HXPageVC-masterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60F4A88F9960EE801035F956 /* Pods-HXPageVC-master.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXPageVC-master.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HXPageVC-master/Pods-HXPageVC-master.debug.xcconfig"; sourceTree = "<group>"; };
+		CB07EFEB22F076C90070F05F /* HXPageVC-master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HXPageVC-master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB07EFEE22F076C90070F05F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB07EFEF22F076C90070F05F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB07EFF122F076C90070F05F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CB07EFF222F076C90070F05F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CB07EFF522F076C90070F05F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB07EFF722F076CA0070F05F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB07EFFA22F076CA0070F05F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB07EFFC22F076CA0070F05F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB07EFFD22F076CA0070F05F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB07F00322F076CA0070F05F /* HXPageVC-masterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HXPageVC-masterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB07F00722F076CA0070F05F /* HXPageVC_masterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXPageVC_masterTests.m; sourceTree = "<group>"; };
+		CB07F00922F076CA0070F05F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB07F00E22F076CA0070F05F /* HXPageVC-masterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HXPageVC-masterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB07F01222F076CA0070F05F /* HXPageVC_masterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXPageVC_masterUITests.m; sourceTree = "<group>"; };
+		CB07F01422F076CA0070F05F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB07F02122F078780070F05F /* HMHHeaderScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMHHeaderScrollView.h; sourceTree = "<group>"; };
+		CB07F02222F078780070F05F /* HMHHeaderScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMHHeaderScrollView.m; sourceTree = "<group>"; };
+		CB07F02522F078CD0070F05F /* HXNormalBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXNormalBtn.h; sourceTree = "<group>"; };
+		CB07F02622F078CD0070F05F /* HXNormalBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXNormalBtn.m; sourceTree = "<group>"; };
+		CB07F02922F0791D0070F05F /* HXBaseDefineHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXBaseDefineHeader.h; sourceTree = "<group>"; };
+		CB07F02A22F079310070F05F /* HXPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXPrefixHeader.pch; sourceTree = "<group>"; };
+		CB07F02C22F07ABB0070F05F /* UIView+Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Data.m"; sourceTree = "<group>"; };
+		CB07F02D22F07ABB0070F05F /* UIView+Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Data.h"; sourceTree = "<group>"; };
+		CB07F02F22F07AF40070F05F /* UIView+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Helper.h"; sourceTree = "<group>"; };
+		CB07F03022F07AF40070F05F /* UIView+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Helper.m"; sourceTree = "<group>"; };
+		CB07F03222F07B6B0070F05F /* HXColorHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXColorHeader.h; sourceTree = "<group>"; };
+		CB07F03322F07C610070F05F /* NSArray+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Extension.m"; sourceTree = "<group>"; };
+		CB07F03422F07C610070F05F /* NSArray+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Extension.h"; sourceTree = "<group>"; };
+		CB07F03622F07CFD0070F05F /* NSString+Function.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Function.h"; sourceTree = "<group>"; };
+		CB07F03722F07CFD0070F05F /* NSString+Function.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Function.m"; sourceTree = "<group>"; };
+		CB07F03922F07D560070F05F /* HXNormalBtn+Create.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HXNormalBtn+Create.h"; sourceTree = "<group>"; };
+		CB07F03A22F07D560070F05F /* HXNormalBtn+Create.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HXNormalBtn+Create.m"; sourceTree = "<group>"; };
+		CB07F03C22F07DE80070F05F /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		CB07F03D22F07DE80070F05F /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		CB07F04022F1CD5C0070F05F /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		CB07F04122F1CD5C0070F05F /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		D12C08DA6067BB2243A9975B /* libPods-HXPageVC-masterUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HXPageVC-masterUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6684217081DC17F6AB1F713 /* Pods-HXPageVC-master.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXPageVC-master.release.xcconfig"; path = "Pods/Target Support Files/Pods-HXPageVC-master/Pods-HXPageVC-master.release.xcconfig"; sourceTree = "<group>"; };
+		E5974980A427E2F297C44815 /* libPods-HXPageVC-master.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HXPageVC-master.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F655C2B166320B350114EF99 /* Pods-HXPageVC-masterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXPageVC-masterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HXPageVC-masterUITests/Pods-HXPageVC-masterUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB07EFE822F076C90070F05F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA6EA0BC128562077F4E20B /* libPods-HXPageVC-master.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB07F00022F076CA0070F05F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4FC03ECA0C81B5A41AF087B /* libPods-HXPageVC-masterTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB07F00B22F076CA0070F05F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A495B1439696058D74A0CE2 /* libPods-HXPageVC-masterUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BD516D2B9B0D13B285DE76D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60F4A88F9960EE801035F956 /* Pods-HXPageVC-master.debug.xcconfig */,
+				D6684217081DC17F6AB1F713 /* Pods-HXPageVC-master.release.xcconfig */,
+				478F2D95DF82D39EE0FA4FEA /* Pods-HXPageVC-masterTests.debug.xcconfig */,
+				00C86D83A7E4F9B68F36C3E5 /* Pods-HXPageVC-masterTests.release.xcconfig */,
+				475F3586AEC86FFC51C37482 /* Pods-HXPageVC-masterUITests.debug.xcconfig */,
+				F655C2B166320B350114EF99 /* Pods-HXPageVC-masterUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1C586F870B699AA8866DBCFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5974980A427E2F297C44815 /* libPods-HXPageVC-master.a */,
+				565B129F836B5397076FCF51 /* libPods-HXPageVC-masterTests.a */,
+				D12C08DA6067BB2243A9975B /* libPods-HXPageVC-masterUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB07EFE222F076C80070F05F = {
+			isa = PBXGroup;
+			children = (
+				CB07EFED22F076C90070F05F /* HXPageVC-master */,
+				CB07F00622F076CA0070F05F /* HXPageVC-masterTests */,
+				CB07F01122F076CA0070F05F /* HXPageVC-masterUITests */,
+				CB07EFEC22F076C90070F05F /* Products */,
+				0BD516D2B9B0D13B285DE76D /* Pods */,
+				1C586F870B699AA8866DBCFA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CB07EFEC22F076C90070F05F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB07EFEB22F076C90070F05F /* HXPageVC-master.app */,
+				CB07F00322F076CA0070F05F /* HXPageVC-masterTests.xctest */,
+				CB07F00E22F076CA0070F05F /* HXPageVC-masterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB07EFED22F076C90070F05F /* HXPageVC-master */ = {
+			isa = PBXGroup;
+			children = (
+				CB07F03F22F1CD370070F05F /* Main */,
+				CB07F02B22F07A800070F05F /* Category */,
+				CB07F02822F078F40070F05F /* AppContainer */,
+				CB07F02422F078920070F05F /* Common */,
+				CB07F02022F078600070F05F /* Tool */,
+				CB07EFEE22F076C90070F05F /* AppDelegate.h */,
+				CB07EFEF22F076C90070F05F /* AppDelegate.m */,
+				CB07EFF122F076C90070F05F /* ViewController.h */,
+				CB07EFF222F076C90070F05F /* ViewController.m */,
+				CB07EFF422F076C90070F05F /* Main.storyboard */,
+				CB07EFF722F076CA0070F05F /* Assets.xcassets */,
+				CB07EFF922F076CA0070F05F /* LaunchScreen.storyboard */,
+				CB07EFFC22F076CA0070F05F /* Info.plist */,
+				CB07EFFD22F076CA0070F05F /* main.m */,
+			);
+			path = "HXPageVC-master";
+			sourceTree = "<group>";
+		};
+		CB07F00622F076CA0070F05F /* HXPageVC-masterTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB07F00722F076CA0070F05F /* HXPageVC_masterTests.m */,
+				CB07F00922F076CA0070F05F /* Info.plist */,
+			);
+			path = "HXPageVC-masterTests";
+			sourceTree = "<group>";
+		};
+		CB07F01122F076CA0070F05F /* HXPageVC-masterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB07F01222F076CA0070F05F /* HXPageVC_masterUITests.m */,
+				CB07F01422F076CA0070F05F /* Info.plist */,
+			);
+			path = "HXPageVC-masterUITests";
+			sourceTree = "<group>";
+		};
+		CB07F02022F078600070F05F /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				CB07F02122F078780070F05F /* HMHHeaderScrollView.h */,
+				CB07F02222F078780070F05F /* HMHHeaderScrollView.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		CB07F02422F078920070F05F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CB07F02522F078CD0070F05F /* HXNormalBtn.h */,
+				CB07F02622F078CD0070F05F /* HXNormalBtn.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		CB07F02822F078F40070F05F /* AppContainer */ = {
+			isa = PBXGroup;
+			children = (
+				CB07F02922F0791D0070F05F /* HXBaseDefineHeader.h */,
+				CB07F02A22F079310070F05F /* HXPrefixHeader.pch */,
+				CB07F03222F07B6B0070F05F /* HXColorHeader.h */,
+			);
+			path = AppContainer;
+			sourceTree = "<group>";
+		};
+		CB07F02B22F07A800070F05F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				CB07F02D22F07ABB0070F05F /* UIView+Data.h */,
+				CB07F02C22F07ABB0070F05F /* UIView+Data.m */,
+				CB07F02F22F07AF40070F05F /* UIView+Helper.h */,
+				CB07F03022F07AF40070F05F /* UIView+Helper.m */,
+				CB07F03422F07C610070F05F /* NSArray+Extension.h */,
+				CB07F03322F07C610070F05F /* NSArray+Extension.m */,
+				CB07F03622F07CFD0070F05F /* NSString+Function.h */,
+				CB07F03722F07CFD0070F05F /* NSString+Function.m */,
+				CB07F03922F07D560070F05F /* HXNormalBtn+Create.h */,
+				CB07F03A22F07D560070F05F /* HXNormalBtn+Create.m */,
+				CB07F03D22F07DE80070F05F /* UIImage+Image.h */,
+				CB07F03C22F07DE80070F05F /* UIImage+Image.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		CB07F03F22F1CD370070F05F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CB07F04022F1CD5C0070F05F /* MainViewController.h */,
+				CB07F04122F1CD5C0070F05F /* MainViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB07EFEA22F076C90070F05F /* HXPageVC-master */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB07F01722F076CA0070F05F /* Build configuration list for PBXNativeTarget "HXPageVC-master" */;
+			buildPhases = (
+				0F820240079368B43CB1A5C5 /* [CP] Check Pods Manifest.lock */,
+				CB07EFE722F076C90070F05F /* Sources */,
+				CB07EFE822F076C90070F05F /* Frameworks */,
+				CB07EFE922F076C90070F05F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HXPageVC-master";
+			productName = "HXPageVC-master";
+			productReference = CB07EFEB22F076C90070F05F /* HXPageVC-master.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB07F00222F076CA0070F05F /* HXPageVC-masterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB07F01A22F076CA0070F05F /* Build configuration list for PBXNativeTarget "HXPageVC-masterTests" */;
+			buildPhases = (
+				47E136397B75FDB47ACFFDCD /* [CP] Check Pods Manifest.lock */,
+				CB07EFFF22F076CA0070F05F /* Sources */,
+				CB07F00022F076CA0070F05F /* Frameworks */,
+				CB07F00122F076CA0070F05F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB07F00522F076CA0070F05F /* PBXTargetDependency */,
+			);
+			name = "HXPageVC-masterTests";
+			productName = "HXPageVC-masterTests";
+			productReference = CB07F00322F076CA0070F05F /* HXPageVC-masterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB07F00D22F076CA0070F05F /* HXPageVC-masterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB07F01D22F076CA0070F05F /* Build configuration list for PBXNativeTarget "HXPageVC-masterUITests" */;
+			buildPhases = (
+				64CC8C4DD978641AFF9643A0 /* [CP] Check Pods Manifest.lock */,
+				CB07F00A22F076CA0070F05F /* Sources */,
+				CB07F00B22F076CA0070F05F /* Frameworks */,
+				CB07F00C22F076CA0070F05F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB07F01022F076CA0070F05F /* PBXTargetDependency */,
+			);
+			name = "HXPageVC-masterUITests";
+			productName = "HXPageVC-masterUITests";
+			productReference = CB07F00E22F076CA0070F05F /* HXPageVC-masterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB07EFE322F076C80070F05F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = hexuan;
+				TargetAttributes = {
+					CB07EFEA22F076C90070F05F = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					CB07F00222F076CA0070F05F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CB07EFEA22F076C90070F05F;
+					};
+					CB07F00D22F076CA0070F05F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CB07EFEA22F076C90070F05F;
+					};
+				};
+			};
+			buildConfigurationList = CB07EFE622F076C80070F05F /* Build configuration list for PBXProject "HXPageVC-master" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB07EFE222F076C80070F05F;
+			productRefGroup = CB07EFEC22F076C90070F05F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB07EFEA22F076C90070F05F /* HXPageVC-master */,
+				CB07F00222F076CA0070F05F /* HXPageVC-masterTests */,
+				CB07F00D22F076CA0070F05F /* HXPageVC-masterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB07EFE922F076C90070F05F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB07EFFB22F076CA0070F05F /* LaunchScreen.storyboard in Resources */,
+				CB07EFF822F076CA0070F05F /* Assets.xcassets in Resources */,
+				CB07EFF622F076C90070F05F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB07F00122F076CA0070F05F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB07F00C22F076CA0070F05F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F820240079368B43CB1A5C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HXPageVC-master-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47E136397B75FDB47ACFFDCD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HXPageVC-masterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64CC8C4DD978641AFF9643A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HXPageVC-masterUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB07EFE722F076C90070F05F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB07F02E22F07ABB0070F05F /* UIView+Data.m in Sources */,
+				CB07F02322F078780070F05F /* HMHHeaderScrollView.m in Sources */,
+				CB07EFF322F076C90070F05F /* ViewController.m in Sources */,
+				CB07F03822F07CFD0070F05F /* NSString+Function.m in Sources */,
+				CB07F03E22F07DE80070F05F /* UIImage+Image.m in Sources */,
+				CB07EFFE22F076CA0070F05F /* main.m in Sources */,
+				CB07F03B22F07D560070F05F /* HXNormalBtn+Create.m in Sources */,
+				CB07F04222F1CD5C0070F05F /* MainViewController.m in Sources */,
+				CB07EFF022F076C90070F05F /* AppDelegate.m in Sources */,
+				CB07F02722F078CD0070F05F /* HXNormalBtn.m in Sources */,
+				CB07F03522F07C610070F05F /* NSArray+Extension.m in Sources */,
+				CB07F03122F07AF40070F05F /* UIView+Helper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB07EFFF22F076CA0070F05F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB07F00822F076CA0070F05F /* HXPageVC_masterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB07F00A22F076CA0070F05F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB07F01322F076CA0070F05F /* HXPageVC_masterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB07F00522F076CA0070F05F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB07EFEA22F076C90070F05F /* HXPageVC-master */;
+			targetProxy = CB07F00422F076CA0070F05F /* PBXContainerItemProxy */;
+		};
+		CB07F01022F076CA0070F05F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB07EFEA22F076C90070F05F /* HXPageVC-master */;
+			targetProxy = CB07F00F22F076CA0070F05F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB07EFF422F076C90070F05F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB07EFF522F076C90070F05F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB07EFF922F076CA0070F05F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB07EFFA22F076CA0070F05F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB07F01522F076CA0070F05F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB07F01622F076CA0070F05F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB07F01822F076CA0070F05F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60F4A88F9960EE801035F956 /* Pods-HXPageVC-master.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FKK4D9L7SV;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HXPageVC-master/AppContainer/HXPrefixHeader.pch";
+				INFOPLIST_FILE = "HXPageVC-master/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sdww.HXPageVC-master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB07F01922F076CA0070F05F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6684217081DC17F6AB1F713 /* Pods-HXPageVC-master.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FKK4D9L7SV;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HXPageVC-master/AppContainer/HXPrefixHeader.pch";
+				INFOPLIST_FILE = "HXPageVC-master/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sdww.HXPageVC-master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CB07F01B22F076CA0070F05F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 478F2D95DF82D39EE0FA4FEA /* Pods-HXPageVC-masterTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FKK4D9L7SV;
+				INFOPLIST_FILE = "HXPageVC-masterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sdww.HXPageVC-masterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HXPageVC-master.app/HXPageVC-master";
+			};
+			name = Debug;
+		};
+		CB07F01C22F076CA0070F05F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00C86D83A7E4F9B68F36C3E5 /* Pods-HXPageVC-masterTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FKK4D9L7SV;
+				INFOPLIST_FILE = "HXPageVC-masterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sdww.HXPageVC-masterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HXPageVC-master.app/HXPageVC-master";
+			};
+			name = Release;
+		};
+		CB07F01E22F076CA0070F05F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 475F3586AEC86FFC51C37482 /* Pods-HXPageVC-masterUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FKK4D9L7SV;
+				INFOPLIST_FILE = "HXPageVC-masterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sdww.HXPageVC-masterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HXPageVC-master";
+			};
+			name = Debug;
+		};
+		CB07F01F22F076CA0070F05F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F655C2B166320B350114EF99 /* Pods-HXPageVC-masterUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FKK4D9L7SV;
+				INFOPLIST_FILE = "HXPageVC-masterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sdww.HXPageVC-masterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HXPageVC-master";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB07EFE622F076C80070F05F /* Build configuration list for PBXProject "HXPageVC-master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB07F01522F076CA0070F05F /* Debug */,
+				CB07F01622F076CA0070F05F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB07F01722F076CA0070F05F /* Build configuration list for PBXNativeTarget "HXPageVC-master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB07F01822F076CA0070F05F /* Debug */,
+				CB07F01922F076CA0070F05F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB07F01A22F076CA0070F05F /* Build configuration list for PBXNativeTarget "HXPageVC-masterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB07F01B22F076CA0070F05F /* Debug */,
+				CB07F01C22F076CA0070F05F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB07F01D22F076CA0070F05F /* Build configuration list for PBXNativeTarget "HXPageVC-masterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB07F01E22F076CA0070F05F /* Debug */,
+				CB07F01F22F076CA0070F05F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB07EFE322F076C80070F05F /* Project object */;
+}
